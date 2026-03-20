@@ -1,0 +1,1 @@
+const somarLista = (no) => (!no ? 0 : no.valor + somarLista(no.proximo));

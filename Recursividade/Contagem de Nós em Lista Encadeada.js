@@ -1,0 +1,1 @@
+const contarNos = (no) => (!no ? 0 : 1 + contarNos(no.proximo)); 
